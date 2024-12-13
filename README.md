@@ -35,4 +35,7 @@ To run these tests, you will need:
 ## Reporting
 After running your tests, you can generate a report using Extent Reports. The report will be generated in the test-output folder. You can customize the reporting mechanism by modifying the Extent Report configuration in the test suite setup.
 
+## Video 
+https://app.usebubbles.com/tnLhzEUdB4wFUDWzQXZSVy/magento-selenium-cucumber
+
 
