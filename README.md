@@ -12,33 +12,10 @@ This repository contains automated test scripts for a Magento e-commerce platfor
 - **BDD Framework:** Cucumber
 - **Design Pattern:** Page Object Model (POM)
 - **Build Tool:** Maven
-- **File Management Tools:** Apache POI (for Excel interactions, optional)
+- **File Management Tools:** Apache POI (for Excel interactions)
 - **Reporting Tools:** Extent Reports
 - **Version Control:** Git and GitHub
-- **Test Management Tools:** Similar to JIRA, ZEPHYR / XRAY
 - **Logging:** SLF4J (Simple Logging Facade for Java)
-
-| User Story                               | Contributor                                               | Role                       |
-|------------------------------------------|-----------------------------------------------------------|----------------------------|
-| [US701: User Registration]()              | [Erdem Gürel](https://github.com/artam109)                | Project Lead & QA Engineer |
-| [US702: User Login]()                     | [Beyza Nur Er](https://github.com/beyzanurer)             | QA Engineer                |
-| [US703: Adding Address]()                 | [Ahmet Kaya](https://github.com/0AhmetKaya0)              | QA Engineer                |
-| [US704: TAB Menu]()                       | [Nigar Ayla Ozcanan](https://github.com/NigarAylaOzcanan) | QA Engineer                |
-| [US705: Adding Products to Cart]()        | [Onur Girgin](https://github.com/Mednasa)                 | QA Engineer                |
-| [US706: Product Order]()                  | [Nigar Ayla Ozcanan](https://github.com/NigarAylaOzcanan) | QA Engineer                |
-| [US707: Search Functionality]()           | [Onur Girgin](https://github.com/Mednasa)                 | QA Engineer                |
-| [US708: Wish List]()                      | [Erdem Gürel](https://github.com/artam109)                | QA Engineer                |
-
-## User Story Summary:
-
-- US701 | User Registration: Create registration for new users in Magento. 
-- US702 | User Login: Verify the login process for registered users.
-- US703 | Adding Address: Adding an address to the system for a registered user.
-- US704 | TAB Menu: TAB menu control.
-- US705 | Adding Products to Cart: Random adding/removing products from the cart by the registered user.
-- US706 | Product Order: The registered user orders and approves the product.
-- US707 | Search Functionality: Confirming the ID of a randomly selected product (e.g. SKU #: MJ08) with the search function.
-- US708 | Wish List: Test adding/removing products from the favorites list
 
 ## Prerequisites
 
@@ -57,10 +34,5 @@ To run these tests, you will need:
 
 ## Reporting
 After running your tests, you can generate a report using Extent Reports. The report will be generated in the test-output folder. You can customize the reporting mechanism by modifying the Extent Report configuration in the test suite setup.
-##Versioning
-We use Git for version control. For the versions available, see the tags on this repository.
 
-## Acknowledgments
-- Thanks to the contributors who spent time to help build these scripts.
-- Magento community for constant support and documentation.
-- Anyone whose code was used as inspiration or direct assistance in this project.
+
